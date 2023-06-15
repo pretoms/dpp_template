@@ -11,7 +11,7 @@ For working on your documentation it is recommended to host your local Hugo inst
 
 First install Hugo.
 ## Windows
-Use PowerShell to install the extended version of Hugo with winget. Add %localappdata%\microsoft\winget\packages to your [path variable](https://windowsloop.com/how-to-add-to-windows-path/).
+Use PowerShell to install the extended version of Hugo with winget. Add <kbd>%localappdata%\microsoft\winget\packages</kbd> to your [path variable](https://windowsloop.com/how-to-add-to-windows-path/).
 ```bash
 winget install Hugo.Hugo.Extended
 ```
@@ -31,10 +31,11 @@ brew install hugo
 # Clone
 
 Make sure you have [Git](https://git-scm.com/) installed on your system.
-[use this template] and share it with your team.
+Clone your repository to your system.
 Change active directory to the cloned repository and run the Hugo server.
 
 ```bash
+git clone <your-repo> <target-directory>
 cd C:\your\local\repository\path
 hugo server --minify
 ```
