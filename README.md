@@ -43,8 +43,8 @@ hugo server --minify
 
 Update the following files to your own content:
 
-* content/docs/projects/our_project rename project folder to the (working) title of your project and remove all files but *_index.md*.
-* README.md (information for those who access your site repo on GitHub: replace it with your text or just delete content and leave it empty)
+* rename project folder <kbd>content/docs/projects/our_project</kbd> to the title of your project and remove all files but <kbd>_index.md</kbd>.
+* <kbd>README.md</kbd> (information for those who access your repository site on GitHub: replace it with your text or just delete content and leave it empty)
 
 Put all images, videos and GIFs you want to embed in your documentation into the assets folder.
 
