@@ -40,6 +40,8 @@ cd C:\your\local\repository\path
 hugo server --minify
 ```
 
+Then visit http://localhost:1313 to view the documentation.
+
 ## Replace the content of the template pages
 
 Update the following files to your own content:
@@ -47,9 +49,7 @@ Update the following files to your own content:
 * rename project folder <kbd>content/docs/projects/our_project</kbd> to the title of your project and remove all files but <kbd>_index.md</kbd>.
 * <kbd>README.md</kbd> (information for those who access your repository site on GitHub: replace it with your text or just delete content and leave it empty)
 
-Put all images, videos and GIFs you want to embed in your documentation into the assets folder.
-
-Then visit http://localhost:1313 to view the documentation.
+Edit the content in the <kbd>content/docs/projects/our_project</kbd> folder. This is the only folder to be handed in at the end of the semester. Rename the folder to your projects title. The total size should not exceed 20 MB. GIFs are encouraged to demonstrate movement in your prototype. The current content content provides an exemplary structure for the documentation but can be freely adapted to your needs. Write in a way so that the documentation would be useful for your pre-project self.
 
 [use this template]: https://github.com/pretoms/dpp_docs/generate
 
