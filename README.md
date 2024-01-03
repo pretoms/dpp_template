@@ -40,7 +40,7 @@ cd C:\your\local\repository\path
 hugo server --minify
 ```
 
-Then visit http://localhost:1313 to view the documentation.
+Then visit [http://localhost:1313](http://localhost:1313) to view the documentation.
 
 ## Replace the content of the template pages
 
@@ -52,4 +52,13 @@ Update the following files to your own content:
 Edit the content in the <kbd>content/docs/projects/our_project</kbd> folder. This is the only folder to be handed in at the end of the semester. Rename the folder to your projects title. The total size should not exceed 20 MB. GIFs are encouraged to demonstrate movement in your prototype. The current content content provides an exemplary structure for the documentation but can be freely adapted to your needs. Write in a way so that the documentation would be useful for your pre-project self.
 
 [use this template]: https://github.com/pretoms/dpp_docs/generate
+
+## Host on GitHub Pages (optional)
+
+To host your hugo instance on GitHub Pages you have to generate a public repository from this template.
+Then go to the **Settings** tab of your repository and then to the **Pages** section.
+Under **Build and deployment** in the **Source** dropdown menu, select **GitHub Actions**.
+You can then check the status of your deployment by clicking **View workflow runs**.
+If your Initial commit failed, under the **Actions** section you can go to **Deploy Hugo site to Pages**.
+There you can click on **Run workflow** to restart the deployment. After a few minutes if the deployment succeeded your page should be available under https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME
 
