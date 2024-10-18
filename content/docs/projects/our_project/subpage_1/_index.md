@@ -6,7 +6,7 @@ weight: 10
 # How to format?
 
 [Hugo](https://gohugo.io/) uses **Markdown** to format *text*. Find out more on how to format [Markdown files](https://www.markdownguide.org/basic-syntax/).
-The raw markdown file of this page can be seen [here](https://raw.githubusercontent.com/pretoms/dpp_docs/main/content/docs/projects/our_project/subpage_1/_index.md).
+The raw markdown file of this page can be seen [here](https://raw.githubusercontent.com/pretoms/dpp_template/main/content/docs/projects/our_project/subpage_1/_index.md).
 
 The hugo book theme enables the use of [Mermaid](https://mermaid.js.org/intro/) diagrams ... 
 
