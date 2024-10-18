@@ -2,8 +2,8 @@
 A new template for the Design for Physical Prototyping project documentation. 
 It uses the static site generator [Hugo](https://gohugo.io/) to generate a web pages from [Markdown](https://www.markdownguide.org/) files with the [Hugo Book Theme](https://github.com/alex-shpak/hugo-book) and the theme component [hugo-video](https://github.com/martignoni/hugo-video).
 
-To get started with your documentation, generate your own repository by clicking "[use this template]" or clone this repository.
-Using GitHub pages you can access your documentation via [https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME](https://pretoms.github.io/dpp_docs/).
+To get started with your documentation, generate your own repository by clicking "[use this template](https://github.com/pretoms/dpp_template/generate)" or clone this repository.
+Using GitHub pages you can access your documentation via [https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME](https://pretoms.github.io/dpp_template/).
 
 # Quickstart
 
@@ -51,7 +51,6 @@ Update the following files to your own content:
 
 Edit the content in the <kbd>content/docs/projects/our_project</kbd> folder. This is the only folder to be handed in at the end of the semester. Rename the folder to your projects title. The total size should not exceed 20 MB. GIFs are encouraged to demonstrate movement in your prototype. The current content content provides an exemplary structure for the documentation but can be freely adapted to your needs. Write in a way so that the documentation would be useful for your pre-project self.
 
-[use this template]: https://github.com/pretoms/dpp_docs/generate
 
 ## Host on GitHub Pages (optional)
 
